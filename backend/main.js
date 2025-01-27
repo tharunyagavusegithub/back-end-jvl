@@ -8,7 +8,7 @@ dotenv.config({path:path.join(__dirname,'config', 'config.env') })
 
 
 app.listen(process.env.PORT, ()=>{ 
-    console.log(`server listening to port ${process.env.PORT} in ${process.env.NODE_ENV}`);
+    console.log(`server is listening to port ${process.env.PORT} in ${process.env.NODE_ENV}`);
 
 
 });
